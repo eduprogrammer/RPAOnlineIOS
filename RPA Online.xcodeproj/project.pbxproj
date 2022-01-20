@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4CA45422796716500C0E34A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CA45412796716500C0E34A /* AppDelegate.swift */; };
+		B4CA45442796716500C0E34A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CA45432796716500C0E34A /* ViewController.swift */; };
+		B4CA45472796716500C0E34A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4CA45452796716500C0E34A /* Main.storyboard */; };
+		B4CA45492796716500C0E34A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4CA45482796716500C0E34A /* Assets.xcassets */; };
+		B4CA454C2796716500C0E34A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4CA454A2796716500C0E34A /* LaunchScreen.storyboard */; };
+		B4CA455827968B2100C0E34A /* money_euro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4CA455527968B2100C0E34A /* money_euro.jpg */; settings = {ASSET_TAGS = (); }; };
+		B4CA455927968B2100C0E34A /* preencha_dados.png in Resources */ = {isa = PBXBuildFile; fileRef = B4CA455627968B2100C0E34A /* preencha_dados.png */; settings = {ASSET_TAGS = (); }; };
+		B4CA455A27968B2100C0E34A /* rpa_online_main.png in Resources */ = {isa = PBXBuildFile; fileRef = B4CA455727968B2100C0E34A /* rpa_online_main.png */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B4CA453E2796716500C0E34A /* RPA Online.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RPA Online.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4CA45412796716500C0E34A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B4CA45432796716500C0E34A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B4CA45462796716500C0E34A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B4CA45482796716500C0E34A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4CA454B2796716500C0E34A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B4CA454D2796716500C0E34A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4CA455527968B2100C0E34A /* money_euro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = money_euro.jpg; sourceTree = "<group>"; };
+		B4CA455627968B2100C0E34A /* preencha_dados.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preencha_dados.png; sourceTree = "<group>"; };
+		B4CA455727968B2100C0E34A /* rpa_online_main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rpa_online_main.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4CA453B2796716500C0E34A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4CA45352796716500C0E34A = {
+			isa = PBXGroup;
+			children = (
+				B4CA455527968B2100C0E34A /* money_euro.jpg */,
+				B4CA455627968B2100C0E34A /* preencha_dados.png */,
+				B4CA455727968B2100C0E34A /* rpa_online_main.png */,
+				B4CA45402796716500C0E34A /* RPA Online */,
+				B4CA453F2796716500C0E34A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4CA453F2796716500C0E34A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4CA453E2796716500C0E34A /* RPA Online.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4CA45402796716500C0E34A /* RPA Online */ = {
+			isa = PBXGroup;
+			children = (
+				B4CA45412796716500C0E34A /* AppDelegate.swift */,
+				B4CA45432796716500C0E34A /* ViewController.swift */,
+				B4CA45452796716500C0E34A /* Main.storyboard */,
+				B4CA45482796716500C0E34A /* Assets.xcassets */,
+				B4CA454A2796716500C0E34A /* LaunchScreen.storyboard */,
+				B4CA454D2796716500C0E34A /* Info.plist */,
+			);
+			path = "RPA Online";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4CA453D2796716500C0E34A /* RPA Online */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4CA45502796716500C0E34A /* Build configuration list for PBXNativeTarget "RPA Online" */;
+			buildPhases = (
+				B4CA453A2796716500C0E34A /* Sources */,
+				B4CA453B2796716500C0E34A /* Frameworks */,
+				B4CA453C2796716500C0E34A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RPA Online";
+			productName = "RPA Online";
+			productReference = B4CA453E2796716500C0E34A /* RPA Online.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4CA45362796716500C0E34A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Eduardo Programador";
+				TargetAttributes = {
+					B4CA453D2796716500C0E34A = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = B4CA45392796716500C0E34A /* Build configuration list for PBXProject "RPA Online" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4CA45352796716500C0E34A;
+			productRefGroup = B4CA453F2796716500C0E34A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4CA453D2796716500C0E34A /* RPA Online */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4CA453C2796716500C0E34A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4CA454C2796716500C0E34A /* LaunchScreen.storyboard in Resources */,
+				B4CA455A27968B2100C0E34A /* rpa_online_main.png in Resources */,
+				B4CA45492796716500C0E34A /* Assets.xcassets in Resources */,
+				B4CA45472796716500C0E34A /* Main.storyboard in Resources */,
+				B4CA455927968B2100C0E34A /* preencha_dados.png in Resources */,
+				B4CA455827968B2100C0E34A /* money_euro.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4CA453A2796716500C0E34A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4CA45442796716500C0E34A /* ViewController.swift in Sources */,
+				B4CA45422796716500C0E34A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B4CA45452796716500C0E34A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4CA45462796716500C0E34A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B4CA454A2796716500C0E34A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4CA454B2796716500C0E34A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4CA454E2796716500C0E34A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B4CA454F2796716500C0E34A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4CA45512796716500C0E34A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "RPA Online/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eduardoprogramador.RPA-Online";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B4CA45522796716500C0E34A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "RPA Online/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eduardoprogramador.RPA-Online";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4CA45392796716500C0E34A /* Build configuration list for PBXProject "RPA Online" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4CA454E2796716500C0E34A /* Debug */,
+				B4CA454F2796716500C0E34A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4CA45502796716500C0E34A /* Build configuration list for PBXNativeTarget "RPA Online" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4CA45512796716500C0E34A /* Debug */,
+				B4CA45522796716500C0E34A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4CA45362796716500C0E34A /* Project object */;
+}
